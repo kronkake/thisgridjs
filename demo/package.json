@@ -1,0 +1,23 @@
+{
+  "name": "thisgriddemo",
+  "version": "1.0.0",
+  "description": "thisgridjs demo grounds",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-skalar": "0.0.7",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "webpack": "^2.6.1",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-core": "^6.24.1"
+  }
+}

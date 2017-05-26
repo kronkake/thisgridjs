@@ -1,0 +1,35 @@
+{
+  "name": "thisgrid",
+  "version": "1.0.0",
+  "description": "Lightweight gridview",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kronkake/thisgridjs.git"
+  },
+  "keywords": [
+    "grid",
+    "vanillajs",
+    "masonry"
+  ],
+  "author": "Jonas D Svendsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kronkake/thisgridjs/issues"
+  },
+  "homepage": "https://github.com/kronkake/thisgridjs#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^2.6.1",
+    "babel-loader": "^7.0.0",
+    "babel-core": "^6.24.1"
+  },
+  "dependencies": {
+    "eslint-config-skalar": "0.0.7"
+  }
+}
